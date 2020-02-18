@@ -1,6 +1,6 @@
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 newAlphabet = ""
-n = 12
+n = 12  #This number determines the degree of the shift. 
 for i in range(len(alphabet)):        
     if i+n >= len(alphabet):
         diff = i+n - len(alphabet) 
